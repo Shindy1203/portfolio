@@ -1,0 +1,110 @@
+/* Quiz.jsxへのスタイルファイル*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* コンテナを中央に配置 */
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.quiz-center {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.end {
+  width: 500px;
+  padding: 50px;
+}
+
+.quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(48, 47, 47);
+  padding: 20px;
+  margin: 10px;
+  color: white;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+/*　↓クイズ問題のスタイル↓　*/
+.quiz-question {
+  font-size: 2em;
+  color: black;
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*　↓キーボードボタンのスタイル設定↓　*/
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-button {
+  margin: 6px;
+  padding: 15px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.quiz-button:hover {
+  border-color: black;
+  color: white;
+  background-color:  rgb(48, 47, 47);
+}
+
+.quiz-button.selected {
+  border-color: black;
+  color: white;
+  background-color:  rgb(48, 47, 47);
+}
+
+/*　↓回答ボタンのスタイル↓  */
+.answer-button {
+  font-weight: bold;
+  padding: 20px 40px;
+  margin: 15px;
+  background-color: gray;
+  color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.answer-button:hover {
+  background-color: rgb(48, 47, 47);
+  border-color: black;
+  color: white;
+}
+
+.answer-button.clicked {
+  background-color: black;
+  color: white;
+  border: 2px solid lightgray;
+}
+
+.answer-feedback {
+  font-size: 2em;
+  color: black;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
