@@ -65,7 +65,7 @@ header {
 .portfolio-section p {
   font-weight: bold;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .profile-section ul,
@@ -87,17 +87,36 @@ footer {
 .foot {
   margin: 10px;
 }
+
 /* アプリへのリンクボタンへのスタイル */
 .quiz-link {
   display: inline-block;
   padding: 10px 20px;
-  color: black;
-  background-color: lightgray;
+  color: #007bff;
+  font-weight: bold;
+  background-color: #f0f0f0;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .quiz-link:hover {
-  background-color: dimgrey;
-  color: lightgray;
+  background-color: #e0e0e0;
+}
+
+
+/*ソースコード、フローチャートへのリンク*/
+.source-code-link,
+.pdf-link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 2px;
+  padding: 10px 10px;
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.source-code-link:hover,
+.pdf-link:hover {
+  background-color: #e0e0e0;
 }

@@ -70,7 +70,7 @@
 .quiz-button:hover {
   border-color: black;
   color: white;
-  background-color:  rgb(48, 47, 47);
+  background-color:  rgb(81, 75, 75);
 }
 
 .quiz-button.selected {
@@ -91,7 +91,7 @@
 }
 
 .answer-button:hover {
-  background-color: rgb(48, 47, 47);
+  background-color: rgb(81, 75, 75);
   border-color: black;
   color: white;
 }
